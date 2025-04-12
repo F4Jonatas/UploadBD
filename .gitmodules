@@ -1,0 +1,4 @@
+[submodule "lib/github"]
+	path = lib/github
+	url = https://github.com/F4Jonatas/PY-Library.git
+	branch = github

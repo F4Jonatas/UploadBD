@@ -1,0 +1,20 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+
+# Declare files that will always have CRLF line endings on checkout.
+# https://github.com/tldr-pages/tldr/issues/7097
+* text eol=lf
+
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.ico binary
+
+
+
+# GitHub linguist ignores markdown files by default, but tldr-pages
+# is mostly markdown, so we explicitly make the pages detectable
+# pages*/**/*.md linguist-detectable=true
+# pages*/**/*.md linguist-documentation=false
